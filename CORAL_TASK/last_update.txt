@@ -1,0 +1,3 @@
+
+==============last update===============
+enable_ssh.txt file added for copy and paste to prepare coral board. [Update : 07-04-2022] 

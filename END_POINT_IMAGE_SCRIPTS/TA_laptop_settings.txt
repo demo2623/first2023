@@ -1,0 +1,15 @@
+--------tracking antenna image create for remote controller--------- 
+version of mfo: ex v8.8.10.img
+ta_end_point_oem_image is made of 192.168.10.1 : 23000
+ip will be: 192.168.10.1
+port will be : 23000
+
+============laptop configuration============
+make your laptop static ip using manual mode. 
+ipv4 :
+192.168.10.19
+255.255.255.0
+192.168.10.1 
+Connect "Antenna" wifi in your laptop
+open MFO appimage on laptop go to COMMLINKS and Listening port : 24001
+

@@ -1,0 +1,56 @@
+===============================ADR Images==========================================
+deployement@mye1ld0063:~/DEPLOYMENT_V3/SHELL_SCRIPTS/END_POINT_IMAGE_SCRIPTS$ bash swarm_3ADR_create.sh 
+Herelink OEM Image Creation begins
+Please enter file name with extension
+v8.9.0.img
+Please enter tracking antenna port number
+23000
+Please enter starting port number for Laptop
+24001
+Please enter number of images to be developed
+3
+[sudo] password for deployement: 
+Sorry, try again.
+[sudo] password for deployement: 
+Tracking Antenna Current Port: 23000
+1
+Laptop Current Port: 24001
+2
+Laptop Current Port: 24001
+3
+Laptop Current Port: 24001
+4
+Image 1 Created
+Tracking Antenna Current Port: 23000
+1
+Laptop Current Port: 24002
+2
+Laptop Current Port: 24002
+3
+Laptop Current Port: 24002
+4
+Image 2 Created
+Tracking Antenna Current Port: 23000
+1
+Laptop Current Port: 24003
+2
+Laptop Current Port: 24003
+3
+Laptop Current Port: 24003
+4
+Image 3 Created
+
+==========================TA images====================================
+deployement@mye1ld0063:~/DEPLOYMENT_V3/SHELL_SCRIPTS/END_POINT_IMAGE_SCRIPTS$ ./create_tracking_antenna_oem.sh 
+Herelink OEM Image Creation begins
+Please enter file name with extension
+v8.9.0.img
+Please enter target IP address
+192.168.10.1
+Please enter starting port number
+22999
+Please enter number of images to be developed
+1
+Current Port: 23000
+Image 1 Created
+=========================================================

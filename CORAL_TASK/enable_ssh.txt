@@ -1,0 +1,34 @@
+
+==========ssh enable on coral=========================
+connect coral via termial and 
+command 1:
+deployement@mye1ld0063:~$ screen /dev/ttyUSB0 115200
+
+command 2:
+echo $HOSTNAME
+output : it should be display : VID55
+
+command 3:(if not set run command 3 else : cat /etc/hosts)
+sudo sed -i "$ a 127.0.0.1 $HOSTNAME" /etc/hosts
+
+command 4:
+mendel@VID52:~$ cat /etc/hosts
+
+command 5: (not required just for knowledge)
+sudo nano /etc/hosts
+127.0.0.1 VID47	//remove this vid from this file
+127.0.0.1 VID52
+
+
+command 6:
+mendel@VID53:~$ sudo sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
+
+command 7:
+mendel@VID53:~$ cat /etc/ssh/sshd_config | grep PasswordAuthentication
+
+Output:
+PasswordAuthentication yes
+# PasswordAuthentication.  Depending on your PAM configuration,
+# PAM authentication, then enable this but set PasswordAuthentication
+
+Note : remove micro usb first and then type-c power cable.
